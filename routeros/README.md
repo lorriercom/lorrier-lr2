@@ -2,7 +2,7 @@
 
 lorrier.rsc + lorrier.backup / default RouterOS (6.35.1) configuration
 
-! Please note, defaul reset disable CDP on PoE-in interface (ether1) !
+! Please note, defaul reset always disable CDP (cisco discovery protocol) on PoE-in interface (ether1). You can enable CDP in Winbox/SSH.
 
   - winbox standard port 8291, ssh standard port 22, other services disabled
   - admin / no password
