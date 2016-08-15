@@ -1,3 +1,3 @@
-"service name","server DNS/IP","uplink portů","downlinkport"
+"service name","server DNS/IP","uplink port","downlink port"
 "thingstools.com","mq.thingstools.com",1700,1701
 "thingstools.com","mq2.thingstools.com",1700,1701
