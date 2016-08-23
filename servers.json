@@ -1,5 +1,5 @@
 {
-  "thingstools.com": [
+  "Thingstools.com": [
     ["mq.thingstools.com",
       1700,
       1701
@@ -7,6 +7,16 @@
     ["mq2.thingstools.com",
       1700,
       1701
+    ]
+  ],
+  "TTN Servers EU 863-870": [
+    ["router.eu.thethings.network",
+      1700,
+      1700
+    ],
+    ["router.eu.staging.thethings.network",
+      1700,
+      1700
     ]
   ]
 }
