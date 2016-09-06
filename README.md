@@ -1,35 +1,56 @@
-# Lorrier LR2 repository
+Lorrier LR2 repository
+======================
 
-- RouterOS & ARM config files
-- PCB gerber files
+-   RouterOS & ARM config files
 
-## Beaglebone (comes preconfigured)
+-   PCB gerber files
 
-### Download zipped binaries and autostart files
+ 
 
-- Download https://lorrier.com/content/images/2016/05/lr2_debian7-v1.0.1.zip
-- Unzip as /opt/lorrier
-- Make symlink for autostart from /opt/lorrier/lorrier.service to /lib/systemd/system/lorrier.service
-- Make second symlink for autostart from /opt/lorrier/lorrier.service to /lib/systemd/system/multi-user.target.wants/lorrier.service
-- Find the kernel version (uname -a)
-- For kernel 3x enable SPI bus, in /boot/uEnv.txt add cape_enable=capemgr.enable_partno=BB-SPIDEV0
-- For kernel 4x enable SPI bus, in /boot/uEnv.txt add cape_enable=bone_capemgr.enable_partno=BB-SPIDEV0
-- Restart (shutdown -r now)
+LR2 Gateway (comes preconfigured)
+---------------------------------
 
-### Quick help
-- Set IP/DNS address of network server in /opt/lorrier/global_conf.json
-- Optionaly set your own Gateway ID in /opt/lorrier/local_conf.json and disable auto-generated Gateway ID, in /opt/lorrier/set-gateway-id.sh set IOT_SK_GWID_UPDATE=false
-- Service management: service lorrier status|start|stop|restart
-- Test of proper function of LoRa RF concentrator: /opt/lorrier/test.sh
+ 
 
-### Compile your own (basic) packet fowarder from https://github.com/Lora-net
-- get the HAL driver from https://github.com/Lora-net/lora_gateway and do "make"
-- get the packet forwarder from https://github.com/Lora-net/packet_forwarder and do "make"
+### Quick Settings
 
-### Compile your own (poly) packet fowarder from https://github.com/TheThingsNetwork
-- get the HAL driver form https://github.com/TheThingsNetwork/lora_gateway
-- channge directives "CFG_SPI= native" and "PLATFORM= lorank" in /libloragw/library.cfg and do "make"
-- get the packet forwarder from https://github.com/TheThingsNetwork/packet_forwarder and do "make"
+-   Follow instructions in Quick\_Settings.md file
+    (https://github.com/lorriercom/lorrier-lr2/blob/master/Quick\_Settings.md)
 
-### Get your own Loriot.io binary file
-- Follow instructions from Loriot.io Control Panel for Lorank8 compatible device.
+-   This instructions are enough for LR2 complete easy settings
+
+ 
+
+### LR2 Gateway consist of this 3 parts:
+
+-   Mikrotik Routerboard RB951Ui-2nD (https://routerboard.com/RB951Ui-2nD)
+
+-   SeedStudio BeagleBone Green (https://beagleboard.org/green)
+
+-   IMST iC880A
+    (http://www.wireless-solutions.de/products/long-range-radio/ic880a.html)
+
+ 
+
+### Routeroard Configuration
+
+-   Detailed configuration in /routeros/README.md file
+    (https://github.com/lorriercom/lorrier-lr2/blob/master/routeros/README.md)
+
+-   Routeros backup files: /routeros/lorrier.rsc and /routeros/lorrier.backup
+
+ 
+
+### BBG Configuration
+
+-   Detailed configuration in /bbg configuration/README.md file
+    (https://github.com/lorriercom/lorrier-lr2/tree/master/bbg
+    configuration/README.md)
+
+-   Image flashing instructions in /bbg configuration/flashing.md file
+    (https://github.com/lorriercom/lorrier-lr2/tree/master/bbg
+    configuration/flashing.md)
+
+-   LR2 Images download in /bbg configuration/images.md file
+    (https://github.com/lorriercom/lorrier-lr2/tree/master/bbg
+    configuration/images.md)
