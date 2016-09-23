@@ -5,6 +5,10 @@ Lorrier LR2 repository
 
 -   PCB gerber files
 
+-   Web administration files
+
+-   Settings instructions
+
  
 
 LR2 Gateway (comes preconfigured)
@@ -14,10 +18,11 @@ LR2 Gateway (comes preconfigured)
 
 ### Quick Settings
 
--   Follow instructions in Quick\_Settings.md file
-    (https://github.com/lorriercom/lorrier-lr2/blob/master/Quick\_Settings.md)
+-   Follow instructions in
+    [LR2\_Quick\_Settings.md](https://github.com/lorriercom/lorrier-lr2/blob/master/LR2_Quick_Settings.md)
+    file
 
--   This instructions are enough for LR2 complete easy settings
+-   That instructions are enough for LR2 complete easy settings
 
  
 
@@ -32,25 +37,28 @@ LR2 Gateway (comes preconfigured)
 
  
 
-### Routeroard Configuration
+### Routeroard
 
--   Detailed configuration in /routeros/README.md file
-    (https://github.com/lorriercom/lorrier-lr2/blob/master/routeros/README.md)
+-   Routerboard configuration are in
+    [/routeros/routerboard\_configuration.md](https://github.com/lorriercom/lorrier-lr2/blob/master/routeros/routerboard_configuration.md)
+    file.
 
 -   Routeros backup files: /routeros/lorrier.rsc and /routeros/lorrier.backup
 
  
 
-### BBG Configuration
+### BeagleBone Green (BBG)
 
--   Detailed configuration in /bbg configuration/README.md file
-    (https://github.com/lorriercom/lorrier-lr2/tree/master/bbg
-    configuration/README.md)
+-   BBG configuration in [/bbg
+    configuration/bbg\_configuration.md](https://github.com/lorriercom/lorrier-lr2/tree/master/bbg%20configuration/bbg_configuration.md)
+    file.
 
--   Image flashing instructions in /bbg configuration/flashing.md file
-    (https://github.com/lorriercom/lorrier-lr2/tree/master/bbg
-    configuration/flashing.md)
+-   You can update your BBG by latest image. Image flashing instructions are in
+    [/bbg
+    configuration/bbg\_flashing.md](https://github.com/lorriercom/lorrier-lr2/tree/master/bbg%20configuration/bbg_flashing.md)
+    file. You have to update also the Routerboard by appropriate backup file
+    after BBG update.
 
--   LR2 Images download in /bbg configuration/images.md file
-    (https://github.com/lorriercom/lorrier-lr2/tree/master/bbg
-    configuration/images.md)
+-   LR2 Images download in [/bbg
+    configuration/bbg\_images.md](https://github.com/lorriercom/lorrier-lr2/tree/master/bbg%20configuration/bbg_images.md)
+    file.
