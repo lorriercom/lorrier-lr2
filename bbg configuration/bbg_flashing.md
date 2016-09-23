@@ -6,7 +6,7 @@ Green. Here we describe two of them:
 
 ### 1) microSD automatic extracting contents
 
--   Get a 4GB or larger microSD card that is FAT formatted.
+    -   Get a 4GB or larger microSD card that is FAT formatted.
 
     -   Make sure that the partition on the microSD card is marked as active.
 
@@ -53,10 +53,10 @@ http://elinux.org/BeagleBone\_Black\_Extracting\_eMMC\_contents*
 
 ### 2) BeagleBoard eMMC flasher
 
--   Download desired LR2 image. The list of the images is in /bbg
-    configuration/bbg\_images.md file
-    (https://github.com/lorriercom/lorrier-lr2/blob/master/bbg
-    configuration/bbg\_images.md).
+    -   Download desired LR2 image. The list of the images is in /bbg
+        configuration/bbg\_images.md file
+        (https://github.com/lorriercom/lorrier-lr2/blob/master/bbg
+        configuration/bbg\_images.md).
 
     -   Decompress Lorrier\_LR2\_BBG\_vXXXXX.img.gz file using
         [7-zip](http://www.7-zip.org/download.html).
@@ -92,12 +92,12 @@ Change to:
     cmdline=init=/opt/scripts/tools/eMMC/init-eMMC-flasher-v3.sh
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--   Reboot the system, it'll flash the eMMC on the next bootup. When the
-    flashing is complete, all 4 USRx LEDs will be steady on or off. *This can
-    take up to 45 minutes.* Power-down your board, remove the SD card and apply
-    power again to be complete.
+    -   Reboot the system, it'll flash the eMMC on the next bootup. When the
+        flashing is complete, all 4 USRx LEDs will be steady on or off. *This can
+        take up to 45 minutes.* Power-down your board, remove the SD card and apply
+        power again to be complete.
 
- 
+
 
 *This procedure is based on “BeagleBoard getting started”:
 https://beagleboard.org/getting-started\#update*
