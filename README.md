@@ -39,7 +39,7 @@ LR2 Gateway (comes preconfigured)
 
 ### Routeroard
 
--   Routerboard configuration are in
+-   Routerboard configuration in
     [/routeros/routerboard\_configuration.md](https://github.com/lorriercom/lorrier-lr2/blob/master/routeros/routerboard_configuration.md)
     file.
 
