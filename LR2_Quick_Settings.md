@@ -35,3 +35,9 @@ which contains web administration environment.
 8.  Set your web administration password in the Preferences window.
 
  
+
+**NOTE:** Be sure LR2 has the connection to the internet during the setting. The
+web administration environment gets the network server services from the
+/github.com/lorriercom/lorrier-lr2/servers.json file. When the internet
+connection is missing, there is only TTN Basic packet forwarder, TTN Poly packet
+forwarder and Loriot.io choice active.
