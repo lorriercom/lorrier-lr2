@@ -21,6 +21,8 @@ Default configuration
 
 -   ether5\_local: 10.10.10.1 + DHCP server (ranges=10.10.10.2, 1 IP only)
 
+-   Default gateway: 192.168.1.1
+
 -   src&dst nat for arm IP address (SSH 2222 \> 22) set and disabled
 
 -   src&dst nat for arm IP address (HTTPS 443 \> 443) set and disabled
@@ -56,9 +58,10 @@ http://www.mikrotik.com/download)
 
 -   IP -\> Addresses
 
--   Change IP address on ether1\_wan (from default 192.168.1.2/24)
+-   Change IP address on ether1\_wan (from default 192.168.1.2/24). IP address
+    with mask format record have to be retained
 
--   IP address with mask format record have to be retained
+-   IP -\> Routes -\> Dst. Address 0.0.0.0/0 : Set gateway IP address
 
  
 

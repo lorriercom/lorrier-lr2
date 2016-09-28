@@ -36,8 +36,10 @@ which contains web administration environment.
 
  
 
-**NOTE:** Be sure LR2 has the connection to the internet during the setting. The
-web administration environment gets the network server services from the
+**NOTE:** Be sure LR2 is able to connect to the internet. The web administration
+environment gets the network server services from the
 /github.com/lorriercom/lorrier-lr2/servers.json file. When the internet
-connection is missing, there is only TTN Basic packet forwarder, TTN Poly packet
-forwarder and Loriot.io choice active.
+connection is missing, the page refresh would last for quite long time and there
+is only TTN Basic packet forwarder, TTN Poly packet forwarder and Loriot.io
+choice active. Obviously, in such a case LR2 can not send the payloads to
+network server.
