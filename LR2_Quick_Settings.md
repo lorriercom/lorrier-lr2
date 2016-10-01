@@ -4,8 +4,6 @@ LR2 Quick Settings
 Preconfigured LR2 since version 2.1.0 is running on Debian (versions may vary)
 which contains web administration environment.
 
- 
-
 1.  Connect the antenna to your LR2. Do not use this unit without antenna or
     appropriate attenuator connected.
 
