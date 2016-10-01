@@ -1,7 +1,7 @@
 Beaglebone (comes preconfigured)
 ================================
 
-Default login: username: *root* / password: *root*
+Default login: username: *root* / password: *lorrier*
 
 ### Download zipped binaries and autostart files
 
@@ -61,3 +61,10 @@ Default login: username: *root* / password: *root*
 
 -   Follow instructions from Loriot.io Control Panel for Lorrier LR2 compatible
     device.
+
+### Installing fail2ban
+
+-   Install aptitude: apt-get install aptitude
+
+-   Follow fail2ban [installing
+    instructions](https://www.upcloud.com/support/installing-fail2ban-on-debian-8-0/)

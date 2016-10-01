@@ -13,7 +13,7 @@ Default configuration
 
 -   winbox standard port 8291, ssh standard port 22, other services disabled
 
--   login / password: admin / admin
+-   login / password: admin / lorrier
 
 -   cisco discovery protocol on all interfaces
 
@@ -54,7 +54,7 @@ http://www.mikrotik.com/download)
 
  
 
-### GW IP address change (static)
+### GW static IP address change
 
 -   IP -\> Addresses
 
@@ -65,7 +65,7 @@ http://www.mikrotik.com/download)
 
  
 
-### Dynamic IP Address enable (DHCP Client ON)
+### Dynamic IP Address enable = DHCP Client ON
 
 -   From Winbox connect using MAC adress
 
@@ -78,7 +78,7 @@ http://www.mikrotik.com/download)
 
  
 
-### IP access Restrictions
+### IP access Restrictions (Recomended)
 
 -   IP -\> Firewall -\> Adress list -\> Add; Name = allow; Address = Your
     allowed IP address(es)

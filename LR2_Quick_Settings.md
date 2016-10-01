@@ -19,14 +19,15 @@ which contains web administration environment.
     file.
 
 4.  Set your BBG password: Use SSH connection on port 2222 (default setting
-    192.168.1.2:2222). Default login: username: *root* / password: *root*. In
+    192.168.1.2:2222). Default login: username: *root* / password: *lorrier*. In
     the command line type *passwd root* and *passwd debian* to change your
     password.
 
 5.  Type *192.168.1.2* (or your new IP setting) in your web browser and
     authorize the safety certificate to open web administration environment.
 
-6.  Enter your login. The default login: username = *admin* / password = *admin*
+6.  Enter your login. The default login: username = *admin* / password =
+    *lorrier*
 
 7.  Choose your Packet Forwarder or network server service in the
     Settings-\>Forwarder window. The MAC address information (primarily for
@@ -39,10 +40,20 @@ which contains web administration environment.
 
  
 
-**NOTE:** Be sure LR2 is able to connect to the internet. The web administration
-environment gets the network server services from the
-/github.com/lorriercom/lorrier-lr2/servers.json file. When the internet
-connection is missing, the page refresh would last for quite long time and there
-is only TTN Basic packet forwarder, TTN Poly packet forwarder and Loriot.io
-choice active. Obviously, in such a case LR2 can not send the payloads to
-network server.
+**NOTE:**
+
+-   Be sure LR2 is able to connect to the internet. The web administration
+    environment gets the network server services from the
+    /github.com/lorriercom/lorrier-lr2/servers.json file. When the internet
+    connection is missing, the page refresh would last for quite long time and
+    there is only TTN Basic packet forwarder, TTN Poly packet forwarder and
+    Loriot.io choice active. Obviously, in such a case LR2 can not send the
+    payloads to network server.
+
+-   For maximizing network security we strictly recommend you to set [IP address
+    restrictions](https://github.com/lorriercom/lorrier-lr2/blob/master/routeros/routerboard_configuration.md)
+    on your routerboard to avoid possible cyber attacks.
+
+-   Since version 2.1.1 is BBG access protected by fail2ban (login brute force
+    attack protection). You have 3 login attempts, then you have to wait for 15
+    minutes to next try.

@@ -79,7 +79,7 @@ http://elinux.org/BeagleBone\_Black\_Extracting\_eMMC\_contents*
 
 -   Connect to your BBG through SSH (for example using the Putty:
     http://www.putty.org/). The BBG SSH is available on port 2222. Default
-    login: user= root , password= root
+    login: user= root , password= lorrier
 
 -   In /boot/uEnv.txt:
 
