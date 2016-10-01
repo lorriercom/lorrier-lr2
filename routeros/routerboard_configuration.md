@@ -110,11 +110,11 @@ http://www.mikrotik.com/download)
 ### Restore default configuration
 
 -   Download the
-    [/routeros/lorrier\_vX.X.X.backup](https://github.com/lorriercom/lorrier-lr2/blob/master/routeros/)
+    [/routeros/lorrier.backup](https://github.com/lorriercom/lorrier-lr2/blob/master/routeros/)
     file
 
 -   Login to your LR2 with Winbox and open “Files” window
 
--   Drag & drop the lorrier\_vX.X.X.backup file into the “Files” window
+-   Drag & drop the lorrier.backup file into the “Files” window
 
 -   Click on this file to highlight it and then click on “Restore”

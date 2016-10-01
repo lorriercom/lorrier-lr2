@@ -56,8 +56,7 @@ LR2 Gateway (comes preconfigured)
 -   You can update your BBG by latest image. Image flashing instructions are in
     [/bbg
     configuration/bbg\_flashing.md](https://github.com/lorriercom/lorrier-lr2/tree/master/bbg%20configuration/bbg_flashing.md)
-    file. You have to update also the Routerboard by appropriate backup file
-    after BBG update.
+    file. Be sure you have also the Routerboard updated by latest backup file.
 
 -   LR2 Images download in [/bbg
     configuration/bbg\_images.md](https://github.com/lorriercom/lorrier-lr2/tree/master/bbg%20configuration/bbg_images.md)
