@@ -104,3 +104,13 @@ Change to:
 
 *This procedure is based on “BeagleBoard getting started”:
 https://beagleboard.org/getting-started\#update*
+
+ 
+
+ 
+
+Troubleshooting:
+----------------
+
+-   Sometimes, after the new image is flashed, you may need to reboot LR2
+    several times.
