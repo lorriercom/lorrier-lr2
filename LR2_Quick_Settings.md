@@ -52,6 +52,6 @@ which contains web administration environment.
     restrictions](https://github.com/lorriercom/lorrier-lr2/blob/master/routeros/routerboard_configuration.md)
     on your routerboard to avoid possible cyber attacks.
 
--   Since version 2.1.1 is BBG access protected by fail2ban (login brute force
+-   Since version 2.1.1, BBG access is protected by fail2ban (login brute force
     attack protection). You have 3 login attempts, then you have to wait for 15
     minutes to next try.
