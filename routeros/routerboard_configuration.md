@@ -3,6 +3,9 @@ Routerboard configuration
 
 lorrier.rsc + lorrier.backup / default RouterOS (6.35.1) configuration
 
+For Routerboard setting use **Winbox tool** (download here:
+[http://www.mikrotik.com/download](http://www.mikrotik.com/download))
+
 **! Please note,** default reset always disable CDP (cisco discovery protocol)
 on PoE-in interface (ether1). You can enable CDP in Winbox/SSH.
 
@@ -38,11 +41,22 @@ Default configuration
 
  
 
+### Restore default configuration
+
+-   Download the
+    [/routeros/lorrier.backup](https://github.com/lorriercom/lorrier-lr2/blob/master/routeros/)
+    file
+
+-   Login to your LR2 with Winbox and open “Files” window
+
+-   Drag & drop the lorrier.backup file into the “Files” window
+
+-   Click on this file to highlight it and then click on “Restore”
+
+ 
+
 Routerboard settings instructions
 ---------------------------------
-
-For Routerboard setting use Winbox tool (download here:
-http://www.mikrotik.com/download)
 
  
 
@@ -107,14 +121,10 @@ http://www.mikrotik.com/download)
 
  
 
-### Restore default configuration
+### DNS Servers change
 
--   Download the
-    [/routeros/lorrier.backup](https://github.com/lorriercom/lorrier-lr2/blob/master/routeros/)
-    file
+-   IP -\> DNS -\> Servers
 
--   Login to your LR2 with Winbox and open “Files” window
+-   Fill out the IP adress(es) of your desired DNS server(s)
 
--   Drag & drop the lorrier.backup file into the “Files” window
-
--   Click on this file to highlight it and then click on “Restore”
+-   Apply (OK)
