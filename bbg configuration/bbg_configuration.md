@@ -68,3 +68,13 @@ Default login: username: *root* / password: *lorrier*
 
 -   Follow fail2ban [installing
     instructions](https://www.upcloud.com/support/installing-fail2ban-on-debian-8-0/)
+
+### Installing LoRa Gateway Bridge (brocaar)
+
+-   Follow LoRa Gateway Bridge [installing
+    instructions](https://docs.loraserver.io/lora-gateway-bridge/getting-started/#install-lora-gateway-brige)
+
+### Installing LoRa Server (brocaar)
+
+-   Follow LoRa Server [installing
+    instructions](https://docs.loraserver.io/loraserver/getting-started/)

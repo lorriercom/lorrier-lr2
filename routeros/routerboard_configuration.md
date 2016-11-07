@@ -4,7 +4,7 @@ Routerboard configuration
 lorrier.rsc + lorrier.backup / default RouterOS (6.35.1) configuration
 
 For Routerboard setting use **Winbox tool** (download here:
-[http://www.mikrotik.com/download](http://www.mikrotik.com/download))
+<http://www.mikrotik.com/download>)
 
 **! Please note,** default reset always disable CDP (cisco discovery protocol)
 on PoE-in interface (ether1). You can enable CDP in Winbox/SSH.
@@ -75,7 +75,7 @@ Routerboard settings instructions
 -   Change IP address on ether1\_wan (from default 192.168.1.2/24). IP address
     with mask format record have to be retained
 
--   IP -\> Routes -\> Dst. Address 0.0.0.0/0 : Set gateway IP address
+-   IP -\> Routes -\> Dst. Address 0.0.0.0/0 : Set (network!) gateway IP address
 
  
 

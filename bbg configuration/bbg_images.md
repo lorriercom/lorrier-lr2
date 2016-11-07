@@ -1,6 +1,9 @@
 Lorrier LR2 images
 ==================
 
+Versions designation: X.X.X = OS update . packet forwarder / service / server
+update . minor system change
+
  
 
 ### Version 2.1.1 (30/09/2016)

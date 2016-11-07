@@ -40,6 +40,12 @@ which contains web administration environment.
 
 **NOTE:**
 
+-   Be sure, your computer from which you are trying to reach web administration
+    is in the same network as the LR2 (in default settings: 192.168.1.X). If
+    your network has another range, you need to
+    [change](https://github.com/lorriercom/lorrier-lr2/blob/master/routeros/routerboard_configuration.md)
+    LR IP address to be correct in your IP network range.
+
 -   Be sure LR2 is able to connect to the internet. The web administration
     environment gets the network server services from the
     /github.com/lorriercom/lorrier-lr2/servers.json file. When the internet
