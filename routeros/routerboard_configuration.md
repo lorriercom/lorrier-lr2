@@ -134,8 +134,8 @@ Routerboard settings instructions
 
 **TROUBLESHOOTING:**
 
--   If your network has different IP range than your LR2, you need to connect to
-    it by MAC address:
+-   If your network has different IP range than your LR2, you might need to
+    connect it by MAC address:
 
     1.  Find your LR2 (identity: Lorrier) in the “Neighbors” window.
 
