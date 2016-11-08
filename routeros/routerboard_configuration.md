@@ -1,10 +1,11 @@
 Routerboard configuration
 =========================
 
-lorrier.rsc + lorrier.backup / default RouterOS (6.35.1) configuration
-
-For Routerboard setting use **Winbox tool** (download here:
-<http://www.mikrotik.com/download>)
+For Routerboard setting use **Winbox tool** (Windows users download
+[here](http://www.mikrotik.com/download) on the bottom of the page. Mac OS users
+download [here](http://mikrotikdownload.s3.amazonaws.com/WinBox-macOS.zip).
+Detailed information about Winbox tool are
+[here](http://wiki.mikrotik.com/wiki/Manual:Winbox).)
 
 **! Please note,** default reset always disable CDP (cisco discovery protocol)
 on PoE-in interface (ether1). You can enable CDP in Winbox/SSH.
