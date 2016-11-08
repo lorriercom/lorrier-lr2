@@ -129,3 +129,20 @@ Routerboard settings instructions
 -   Fill out the IP adress(es) of your desired DNS server(s)
 
 -   Apply (OK)
+
+ 
+
+**TROUBLESHOOTING:**
+
+-   If your network has different IP range than your LR2, you need to connect to
+    it by MAC address:
+
+    1.  Find your LR2 (identity: Lorrier) in the “Neighbors” window.
+
+    2.  Click on the appropriate line in the MAC address column. You will see
+        the “Connect to:” box on the top of the window change to the LR2 MAC
+        address.
+
+    3.  Fill out the right login and the password (in default: admin / lorrier)
+
+    4.  Click connect.
