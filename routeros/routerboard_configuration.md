@@ -130,9 +130,9 @@ Routerboard settings instructions
 
 -   Apply (OK)
 
- 
 
-**TROUBLESHOOTING:**
+Troubleshooting
+---------------
 
 -   If your network has different IP range than your LR2, you might need to
     connect it by MAC address:
