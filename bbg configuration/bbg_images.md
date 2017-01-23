@@ -10,7 +10,7 @@ update . minor system change
 
 [Download here](https://drive.google.com/open?id=0B2d6XCsqk9PSdzZZSmxKeDZONXM)
 
--   Debian 8.5 + kernel 4.4.9
+-   Debian 8.5 + kernel 4.1.22
 
 -   TTN Basic Packet forwarder
 
@@ -30,7 +30,7 @@ update . minor system change
 
 [Download here](https://drive.google.com/open?id=0B2d6XCsqk9PSX2lPRktTQS1LNHM)
 
--   Debian 8.5 + kernel 4.4.9
+-   Debian 8.5 + kernel 4.1.22
 
 -   TTN Basic Packet forwarder
 
@@ -48,7 +48,7 @@ update . minor system change
 
 [Download here](https://drive.google.com/open?id=0B2d6XCsqk9PSS1lkNFVlOHhRbTg)
 
--   Debian 8.5 + kernel 4.4.9
+-   Debian 8.5 + kernel 4.1.22
 
 -   TTN Basic Packet forwarder
 
