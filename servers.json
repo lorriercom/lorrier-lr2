@@ -1,10 +1,6 @@
 {
-  "Thingstools.com": [
-    ["mq.thingstools.com",
-      1700,
-      1701
-    ],
-    ["mq2.thingstools.com",
+  "Bootlab.cz": [
+    ["iot.bootlab.cz",
       1700,
       1701
     ]
