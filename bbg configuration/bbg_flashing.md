@@ -1,10 +1,10 @@
-BBG Image Flashing Procedure
+﻿BBG Image Flashing Procedure
 ============================
 
 There are several possibilities how to flash a new image to the BeagleBone
 Green. Here we describe two of them:
 
-### 1) microSD automatic extracting contents
+### 1) microSD automatic extracting contents (not recommended for newest LR2 versions)
 
 -   Get a 4GB or larger microSD card that is FAT formatted.
 
@@ -52,7 +52,7 @@ http://elinux.org/BeagleBone\_Black\_Extracting\_eMMC\_contents*
 
  
 
-### 2) BeagleBoard eMMC flasher
+### 2) BeagleBoard eMMC flasher (recommended)
 
 -   Download desired LR2 image. The list of the images is in /bbg
     configuration/bbg\_images.md file
